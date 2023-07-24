@@ -1,0 +1,33 @@
+{
+	"name": "alexander-freundlieb/af6passenger",
+	"type": "typo3-cms-extension",
+	"description": "Sitepackage used for all websites developed by Alexander Freundlieb",
+	"authors": [
+		{
+			"name": "Alexander Freundlieb",
+			"role": "Developer",
+			"homepage": "https://alexanderfreundlieb.ch"
+		}
+	],
+	"homepage": "https://alexanderfreundlieb.ch",
+	"license": ["GPL-2.0-or-later"],
+	"keywords": ["TYPO3 CMS"],
+	"require": {
+		"typo3/cms-core": "^12.4",
+		"typo3/cms-rte-ckeditor": "^12.4",
+		"typo3/cms-fluid-styled-content": "^12.4",
+		"wapplersystems/ws-scss": "^12.0",
+		"b13/container": "^2.2",
+		"ichhabrecht/content-defender": "^3.2"
+	},
+	"autoload": {
+		"psr-4": {
+			"AlexanderFreundlieb\\Af6passenger\\": "Classes/"
+		}
+	},
+	"extra": {
+		"typo3/cms": {
+			"extension-key": "af6passenger"
+		}
+	}
+}
