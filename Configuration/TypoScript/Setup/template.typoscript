@@ -53,7 +53,7 @@ page {
       30 = TYPO3\CMS\Frontend\DataProcessing\MenuProcessor
       30 {
         special = directory
-        special.value = {$metaPid}
+        special.value = {$plugin.af6bus.metaPid}
         as = navigationMeta
 
         dataProcessing {
