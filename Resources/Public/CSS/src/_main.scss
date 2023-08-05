@@ -212,6 +212,12 @@ a {}
 
                 &:hover, &--active {
                     color: $primary;
+
+                    .navigation__text {
+                        &::before {
+                            color: $font-color;
+                        }
+                    }
                 }
             }
 
@@ -241,7 +247,7 @@ a {}
                     .navigation__text {
                         &::before {
                             content: "|";
-                            padding: 0.2em;
+                            padding: 0.3em;
                         }
                     }
                 }

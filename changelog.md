@@ -7,4 +7,5 @@ of all changes.
 ### All changes
 ```
 [05.08.2023][fix] Set correct variable for metanav
+[05.08.2023][fix] Don't color language nav separator upon hover
 ```
