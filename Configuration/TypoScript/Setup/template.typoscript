@@ -20,6 +20,7 @@ page {
       10 = TYPO3\CMS\Frontend\DataProcessing\MenuProcessor
       10 {
 
+        special.value.field = pages
         levels = 1
         as = navigation
         expandAll = 1
