@@ -80,3 +80,4 @@ typo3/sysext/core/Tests/Acceptance/Support/_generated/
 
 # Ignore certain css files
 /Resources/Public/CSS/dist/*
+/Resources/Public/CSS/vendor/*
