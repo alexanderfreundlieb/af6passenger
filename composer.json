@@ -1,7 +1,7 @@
 {
 	"name": "alexander-freundlieb/af6passenger",
 	"type": "typo3-cms-extension",
-	"description": "Sitepackage used for all websites developed by Alexander Freundlieb",
+	"description": "Simple extension to extend the sitepackage af6bus and add your own changes",
 	"authors": [
 		{
 			"name": "Alexander Freundlieb",
@@ -16,7 +16,7 @@
 		"typo3/cms-core": "^12.4",
 		"typo3/cms-rte-ckeditor": "^12.4",
 		"typo3/cms-fluid-styled-content": "^12.4",
-		"alexander-freundlieb/af6bus": "dev-main"
+		"alexander-freundlieb/af6bus": "^2.0"
 	},
 	"autoload": {
 		"psr-4": {
