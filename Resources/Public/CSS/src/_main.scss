@@ -111,21 +111,37 @@ a {}
 .button {
     &--top {
         position: fixed;
-        width: 1em;
-        height: 1em;
-        border-top: 2px solid $font-color;
-        border-right: 2px solid $font-color;
-        transform: rotate(-45deg) translateX(5em) translateY(5em);
+        width: 2em;
+        height: 2em;
+        transform: translateX(5em);
         right: 2em;
-        bottom: 1em;
-        transition: border-color, transform .25s ease;
+        bottom: 2em;
+
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+
+        transition: transform .25s ease;
+
+        &::after {
+            content: "";
+            display: block;
+            width: 60%;
+            height: 60%;
+            border-top: 2px solid $font-color;
+            border-right: 2px solid $font-color;
+            transform: rotate(-45deg);
+            transition: border-color .25s ease;
+        }
 
         &:hover {
-            border-color: $primary;
+            &::after {
+                border-color: $primary;
+            }
         }
 
         &--visible {
-            transform: rotate(-45deg) translateX(0) translateY(0);
+            transform: translateX(0);
         }
     }
 }
