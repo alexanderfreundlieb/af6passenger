@@ -5,14 +5,14 @@
  */
 $EM_CONF[$_EXTKEY] = [
     'title' => 'AF6Passenger',
-    'description' => 'Sitepackage used for all websites developed by Alexander Freundlieb',
+    'description' => 'Simple extension to extend the sitepackage af6bus and add your own changes',
     'category' => 'templates',
     'constraints' => [
         'depends' => [
             'typo3' => '12.4.0-12.4.99',
             'fluid_styled_content' => '12.4.0-12.4.99',
             'rte_ckeditor' => '12.4.0-12.4.99',
-            'af6bus' => 'dev-main'
+            'af6bus' => '2.0.0 - 2.99.99'
         ],
         'conflicts' => [
         ],
@@ -29,5 +29,5 @@ $EM_CONF[$_EXTKEY] = [
     'author' => 'Alexander Freundlieb',
     'author_email' => 'alexander.freundlieb@icloud.com',
     'author_company' => 'Alexander Freundlieb',
-    'version' => '1.0.0',
+    'version' => '1.1.0',
 ];

@@ -108,7 +108,43 @@ a {}
 /******************************************************
  * Buttons
  ******************************************************/
-.button {}
+.button {
+    &--top {
+        position: fixed;
+        width: 2em;
+        height: 2em;
+        transform: translateX(5em);
+        right: 2em;
+        bottom: 2em;
+
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+
+        transition: transform .25s ease;
+
+        &::after {
+            content: "";
+            display: block;
+            width: 60%;
+            height: 60%;
+            border-top: 2px solid $font-color;
+            border-right: 2px solid $font-color;
+            transform: rotate(-45deg);
+            transition: border-color .25s ease;
+        }
+
+        &:hover {
+            &::after {
+                border-color: $primary;
+            }
+        }
+
+        &--visible {
+            transform: translateX(0);
+        }
+    }
+}
 
 /******************************************************
  * Spacing
@@ -155,6 +191,7 @@ a {}
         .navigation {
             &__list {
                 display: flex;
+                justify-content: flex-end;
 
                 list-style: none;
                 padding: 0;
@@ -212,6 +249,12 @@ a {}
 
                 &:hover, &--active {
                     color: $primary;
+
+                    .navigation__text {
+                        &::before {
+                            color: $font-color;
+                        }
+                    }
                 }
             }
 
@@ -241,7 +284,7 @@ a {}
                     .navigation__text {
                         &::before {
                             content: "|";
-                            padding: 0.2em;
+                            padding: 0.3em;
                         }
                     }
                 }
