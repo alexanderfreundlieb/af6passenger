@@ -2,7 +2,14 @@ Changelog
 ==============================================================
 ## Version 1.1.0 - 6th August 2023
 This version contains some minor bug fixes as well as a few new features. 
-See below for a full list of all changes.
+
+### Switching between navigation types
+It is now possible to switch between a one-page and a regular navigation
+by setting the corresponding typoscript constant in the backend.
+
+### Back to top button
+The extension now ships with a basic back to top button. The button is shown
+once the user scrolls down a certain amount.
 
 ### All changes
 ```
