@@ -58,8 +58,7 @@ page {
     }
   }
 }
-
-[{$onePage} == 1]
+[{$plugin.af6bus.onePage} == 1]
   page {
     10 {
       dataProcessing {
