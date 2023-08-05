@@ -16,31 +16,22 @@ page {
 
     ### Data Processing ###
     dataProcessing {
-      # Main Navigation - One Page Layout
-      10 = TYPO3\CMS\Frontend\DataProcessing\DatabaseQueryProcessor
-      10 {
-        table = tt_content
-        pidInList.field = uid
-        where = sectionIndex = 1
-        as = navigation
-      }
-
       # Main Navigation
-      #15 = TYPO3\CMS\Frontend\DataProcessing\MenuProcessor
-      #15 {
+      10 = TYPO3\CMS\Frontend\DataProcessing\MenuProcessor
+      10 {
 
-      #  levels = 1
-      #  as = navigation
-      #  expandAll = 1
-      #  titleField = nav_title // title
+        levels = 1
+        as = navigation
+        expandAll = 1
+        titleField = nav_title // title
 
-      #  dataProcessing {
-      #    10 = files
-      #    10 {
-      #      references.fieldName = media
-      #    }
-      #  }
-      #}
+        dataProcessing {
+          10 = files
+          10 {
+            references.fieldName = media
+          }
+        }
+      }
 
       # Language Navigation
       20 = TYPO3\CMS\Frontend\DataProcessing\LanguageMenuProcessor
@@ -66,3 +57,20 @@ page {
     }
   }
 }
+
+[{$onePage} == 1]
+  page {
+    10 {
+      dataProcessing {
+        # Main Navigation - One Page Layout
+        10 = TYPO3\CMS\Frontend\DataProcessing\DatabaseQueryProcessor
+        10 {
+          table = tt_content
+          pidInList.field = uid
+          where = sectionIndex = 1
+          as = navigation
+        }
+      }
+    }
+  }
+[end]
