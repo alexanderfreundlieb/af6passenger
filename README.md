@@ -11,9 +11,9 @@ the purpose of allowing website specific changes for other TYPO3 extensions.
 | ^1.0.0               | ^12.4         | 
 
 ## Dependencies
-| Dependency | Version  |
-|------------|----------|
-| af6bus     | dev-main |
+| Dependency | Version |
+|------------|---------|
+| af6bus     | ^2.0    |
 
 ## Installation
 See the installation guide at [af6bus](https://github.com/alexanderfreundlieb/af6bus#installation)
