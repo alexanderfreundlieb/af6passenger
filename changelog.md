@@ -21,4 +21,5 @@ once the user scrolls down a certain amount.
 [06.08.2023][feat] Add back to top button
 [06.08.2023][feat] Make back to top button more user friendly
 [06.08.2023][chore] Update description and dependencies
+[06.08.2023][chore] Update version number
 ```
