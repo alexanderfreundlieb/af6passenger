@@ -108,7 +108,27 @@ a {}
 /******************************************************
  * Buttons
  ******************************************************/
-.button {}
+.button {
+    &--top {
+        position: fixed;
+        width: 1em;
+        height: 1em;
+        border-top: 2px solid $font-color;
+        border-right: 2px solid $font-color;
+        transform: rotate(-45deg) translateX(5em) translateY(5em);
+        right: 2em;
+        bottom: 1em;
+        transition: border-color, transform .25s ease;
+
+        &:hover {
+            border-color: $primary;
+        }
+
+        &--visible {
+            transform: rotate(-45deg) translateX(0) translateY(0);
+        }
+    }
+}
 
 /******************************************************
  * Spacing

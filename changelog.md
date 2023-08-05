@@ -1,6 +1,6 @@
 Changelog
 ==============================================================
-## Version 1.0.1 - 5th August 2023
+## Version 1.1.0 - 6th August 2023
 This version contains some minor bug fixes as well as a few new features. 
 See below for a full list of all changes.
 
@@ -11,4 +11,5 @@ See below for a full list of all changes.
 [05.08.2023][feat] Change navigation type depending on onePage constant
 [05.08.2023][fix] Remove folders & pages inside folders from navigation
 [05.08.2023][fix] Set correct typoscript condition
+[06.08.2023][feat] Add back to top button
 ```
