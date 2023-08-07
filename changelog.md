@@ -1,5 +1,14 @@
 Changelog
 ==============================================================
+## Version 1.2.1 - 7th August 2023
+The main focus here was set on some basic styling as well as responsive 
+styling.
+
+### All changes
+```
+[07.08.2023][fix] Set correct scss paths
+```
+
 ## Version 1.1.1 - 6th August 2023
 In this version the extension has been granted an icon.
 
