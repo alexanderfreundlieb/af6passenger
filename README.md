@@ -20,3 +20,4 @@ See the installation guide at [af6bus](https://github.com/alexanderfreundlieb/af
 
 ## TODO
 - [ ] Add styling for mobile navigation
+- [ ] Display one page nav on all sites
