@@ -8,6 +8,7 @@ styling. Of course some small bug fixes were made as well
 ```
 [07.08.2023][fix] Set correct scss paths
 [09.08.2023][fix] Show anchor (one page) nav on all sites
+[09.08.2023][fix] Lang nav hover issues
 ```
 
 ## Version 1.1.1 - 6th August 2023
