@@ -66,7 +66,7 @@ page {
         10 = TYPO3\CMS\Frontend\DataProcessing\DatabaseQueryProcessor
         10 {
           table = tt_content
-          pidInList.field = uid
+          pidInList = {$plugin.af6bus.homePid}
           where = sectionIndex = 1
           as = navigation
         }
