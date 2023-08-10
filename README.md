@@ -17,6 +17,3 @@ the purpose of allowing website specific changes for other TYPO3 extensions.
 
 ## Installation
 See the installation guide at [af6bus](https://github.com/alexanderfreundlieb/af6bus#installation)
-
-## TODO
-- [ ] Add styling for mobile navigation

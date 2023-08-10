@@ -32,13 +32,18 @@ $font-color: $black;
 $grid-max-width: 1400px;
 $grid-max-width-smaller: 1160px;
 $grid-gap: 40px;
+
 $break-point-xxl: 1400px;
-$break-point-xl: 1200px;
-$break-point-lg: 992px;
-$break-point-md: 786px;
-$break-point-sm: 567px;
+$break-point-xl:  1200px;
+$break-point-lg:   992px;
+$break-point-md:   786px;
+$break-point-sm:   567px;
 
 $nav-height: 7em !default;
+
+/* Responsive */
+$font-size-tablet: 19px;
+$font-size-mobile: 18px;
 
 /* Z-Index Scale */
 $zIndex-1:   100;
@@ -54,11 +59,15 @@ $zIndex-10: 1000;
 
 /* Z-Index Application */
 // Add more if needed
-$zIndex-1--foreground:        $zIndex-1;
+$zIndex-1--foreground:  $zIndex-1;
+$zIndex-1--burger:      $zIndex-1;
 
-$zIndex-7--nav:                     $zIndex-7;
+$zIndex-2--burger-bar:  $zIndex-2;
+$zIndex-2--meta:        $zIndex-2;
 
-$zIndex-9--overlay:                 $zIndex-9;
-$zIndex-9--tooltip:                 $zIndex-9;
+$zIndex-7--nav:         $zIndex-7;
 
-$zIndex-10--dev:                    $zIndex-10;
+$zIndex-9--overlay:     $zIndex-9;
+$zIndex-9--tooltip:     $zIndex-9;
+
+$zIndex-10--dev:       $zIndex-10;
