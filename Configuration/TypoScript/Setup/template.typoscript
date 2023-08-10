@@ -68,6 +68,7 @@ page {
           table = tt_content
           pidInList = {$plugin.af6bus.homePid}
           where = sectionIndex = 1
+          orderBy = sorting
           as = navigation
         }
       }

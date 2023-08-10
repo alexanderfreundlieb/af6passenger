@@ -10,6 +10,7 @@ styling. Of course some small bug fixes were made as well
 [09.08.2023][fix] Show anchor (one page) nav on all sites
 [09.08.2023][fix] Lang nav hover issues
 [10.08.2023][feat] Add basic styling for mobile nav - Resolves #5
+[10.08.2023][fix] Add sorting to one page nav - Fixes #7
 ```
 
 ## Version 1.1.1 - 6th August 2023
