@@ -1,6 +1,6 @@
 Changelog
 ==============================================================
-## Version 1.2.1 - 9th August 2023
+## Version 1.2.0 - 9th August 2023
 The main focus here was set on some basic styling as well as responsive 
 styling. Of course some small bug fixes were made as well
 
@@ -11,6 +11,7 @@ styling. Of course some small bug fixes were made as well
 [09.08.2023][fix] Lang nav hover issues
 [10.08.2023][feat] Add basic styling for mobile nav - Resolves #5
 [10.08.2023][fix] Add sorting to one page nav - Fixes #7
+[10.08.2023][feat] Add active class to one-page nav item - Resolves #6
 ```
 
 ## Version 1.1.1 - 6th August 2023

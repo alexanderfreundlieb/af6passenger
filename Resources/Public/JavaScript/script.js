@@ -1,5 +1,4 @@
 $(document).ready(function() {
-
   /** Top Button **/
   /* Top Button einblenden */
   function topButtonFunctionality() {
@@ -17,6 +16,23 @@ $(document).ready(function() {
   }
 
   topButtonFunctionality();
+
+  /** One Page Nav **/
+  window.onscroll = function () {
+    var scrollPos = $(document).scrollTop();
+    $('.navigation__main .navigation__item--one-page .navigation__link').each(function () {
+      var currLink = $(this);
+      var anchor = $(currLink.attr("href").slice(1));
+      var refElement = anchor.parent();
+      if (anchor.position().top - 20 <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
+        $('.navigation__main .navigation__item--one-page .navigation__link').removeClass("navigation__link--active");
+        currLink.addClass("navigation__link--active");
+      }
+      else{
+        currLink.removeClass("navigation__link--active");
+      }
+    });
+  };
 });
 
 window.addEventListener('load', function() {
