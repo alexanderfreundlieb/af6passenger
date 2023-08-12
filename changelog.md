@@ -7,6 +7,7 @@ TBD
 ```
 [12.08.2023][feat] Allow primary color styling everywhere
 [12.08.2023][feat] Close mobile nav on link click
+[12.08.2023][style] Add button styling
 ```
 
 ## Version 1.2.0 - 10th August 2023
