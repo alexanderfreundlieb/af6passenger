@@ -33,6 +33,10 @@ $(document).ready(function() {
       }
     });
   };
+
+  $('.navigation__mobile .navigation__link').click(function (){
+    $('.navigation__mobile__burger--input').prop( "checked", false );
+  });
 });
 
 window.addEventListener('load', function() {
