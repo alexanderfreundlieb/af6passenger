@@ -1,5 +1,19 @@
 Changelog
 ==============================================================
+## Version 1.3.0 - 12th August 2023
+Added a few small features as well as some basic styling
+
+### All changes
+```
+[12.08.2023][feat] Allow primary color styling everywhere
+[12.08.2023][feat] Close mobile nav on link click
+[12.08.2023][style] Add button styling
+[12.08.2023][style] Add responsive header styling
+[12.08.2023][style] Add basic lead text styling
+[12.08.2023][style] Add rte styling
+[12.08.2023][chore] Update version number
+```
+
 ## Version 1.2.0 - 10th August 2023
 The main focus here was set on some basic styling as well as responsive 
 styling. Of course some small bug fixes were made as well
