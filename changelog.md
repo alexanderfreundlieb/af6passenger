@@ -1,7 +1,7 @@
 Changelog
 ==============================================================
-## Version TBD - 12th August 2023
-TBD
+## Version 1.3.0 - 12th August 2023
+Added a few small features as well as some basic styling
 
 ### All changes
 ```
@@ -11,6 +11,7 @@ TBD
 [12.08.2023][style] Add responsive header styling
 [12.08.2023][style] Add basic lead text styling
 [12.08.2023][style] Add rte styling
+[12.08.2023][chore] Update version number
 ```
 
 ## Version 1.2.0 - 10th August 2023
