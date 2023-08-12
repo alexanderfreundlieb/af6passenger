@@ -8,7 +8,7 @@ editor:
         - { name: "Lead", element: "p", classes: ['lead'] }
         - { name: 'Button', element: 'a', classes: ['button'] }
         - { name: 'Like heading 1', element: 'h2', classes: ['heading--h1'] }
-        - { name: 'Primary color', element: 'p', classes: ['primary-color'] }
+        - { name: 'Primary color', element: 'span', classes: ['primary-color'] }
 
     toolbar:
       items:
