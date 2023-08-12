@@ -10,6 +10,7 @@ TBD
 [12.08.2023][style] Add button styling
 [12.08.2023][style] Add responsive header styling
 [12.08.2023][style] Add basic lead text styling
+[12.08.2023][style] Add rte styling
 ```
 
 ## Version 1.2.0 - 10th August 2023
