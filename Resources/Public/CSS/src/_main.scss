@@ -64,7 +64,7 @@ h1, .heading--h1,
 h2, .heading--h2,
 h3, .heading--h3,
 h4, .heading--h4,
-h5, .heading--h5, {
+h5, .heading--h5 {
     font-family: $font-family-headings;
     font-weight: $font-weight-bold;
     color: $black;
@@ -109,6 +109,28 @@ a {}
  * Buttons
  ******************************************************/
 .button {
+    display: inline-block;
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    outline: none;
+    text-decoration: none;
+    text-align: center;
+
+    color: $white;
+    background-color: $primary;
+    border: 1px solid $primary;
+    padding: 0.75em 2em;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+
+    &:hover,
+    &:focus {
+        color: $primary;
+        background-color: $white;
+    }
+
     &--top {
         position: fixed;
         width: 2em;
